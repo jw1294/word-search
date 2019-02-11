@@ -142,6 +142,6 @@ if(__name__ == '__main__'):
     # make wordsearch
     ws = make_wordsearch(spec.N, spec.words, spec.allow_backwards)
 
-    # save wordsearch to desired format
+    # save wordsearch
     print(ws)
     # TODO
