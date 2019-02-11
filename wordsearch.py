@@ -2,6 +2,7 @@
 
 import random
 from enum import Enum
+import specification as spec
 
 alphabet = ('a', 'b', 'c', 'd',
             'e', 'f', 'g', 'h',
@@ -138,14 +139,8 @@ def make_wordsearch(N, words, allow_backwards):
 
 if(__name__ == '__main__'):
 
-    # will be in specification file
-    N = 16
-    words = ['HERE', 'ARE', 'SOME', 'EXAMPLE', 'WORDS']
-    allow_backwards = False
-    # TODO
-
     # make wordsearch
-    ws = make_wordsearch(N, words, allow_backwards)
+    ws = make_wordsearch(spec.N, spec.words, spec.allow_backwards)
 
     # save wordsearch to desired format
     print(ws)
