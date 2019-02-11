@@ -1,4 +1,4 @@
-'''Package to create a wordsearch in txt, tex, pdf or png form'''
+'''Package to create a wordsearch as a set or txt, tex and pdf files'''
 
 import random
 from enum import Enum
